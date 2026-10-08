@@ -1,0 +1,19 @@
+#ifndef GPIB_TEST_H
+#define GPIB_TEST_H
+
+#include <limits.h>
+
+#ifndef PATH_MAX
+#define PATH_MAX 4096
+#endif
+
+#define DEFAULT_DEVICE_NAME "PH1"
+#define DEFAULT_READ_BUFFER_SIZE 2048
+#define DEFAULT_WAIT_SRQ_TIMEOUT_US 5000000
+#define MAX_LINE_LENGTH 4096
+#define MAX_DEVICE_NAME_LENGTH 128
+#define MAX_COMMAND_LENGTH 64
+#define MAX_PAYLOAD_LENGTH 2048
+#define MAX_PRELOAD_LIBRARIES 16
+
+#endif
